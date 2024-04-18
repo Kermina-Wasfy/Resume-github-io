@@ -1,0 +1,222 @@
+*{
+    list-style-type: none;
+}
+body{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.ul-menu{
+    background-color:#333; 
+    color: #ffffff; 
+    overflow: hidden;
+    text-align: center;
+}
+.li-menu{
+    float:left;
+}
+.a-menu{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    display: block;
+    padding: 17px;
+}
+.li-menu a:hover{
+    background-color: #000;
+}
+.title-menu{
+    font-size: 40px;
+    display: inline;
+}
+.column{
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.social{
+    width: 25px;
+    padding: 5px;
+}
+.left{
+    width:20%;
+    float:left
+}
+.right{
+    width:80%;
+    float:left
+}
+.row:after{
+    display: table;
+    clear: both;
+    content: "";
+    padding: 5px;
+}
+.main-bar{
+    background-color: grey;
+    display: block;
+    height: 25px;
+}
+.main-bar span{
+    background-color: teal;
+    display: block;
+    height: 25px;
+    color: white;
+}
+.Java{
+    width: 90%;
+    animation: java 2s;;
+}
+.python{
+    width: 50%;
+    animation: python 2s;
+}
+.github{
+    width: 35%;
+    animation: github 2s;;
+}
+.JavaScript{
+    width: 45%;
+    animation: javascript 2s;
+}
+.datastructure{
+    width: 60%;
+    animation: datastructure 2s;;
+}
+.reactjs{
+    width: 40%;
+    animation: reactjs 2s;
+}
+.html{
+    width: 65%;
+    animation: html 2s;;
+}
+.css{
+    width: 55%;
+    animation: css 2s;;
+}
+.algorithm{
+    width: 35%;
+    animation: css 2s;;
+}
+.flutter{
+    width: 40%;
+    animation: css 2s;;
+}
+@keyframes java {
+    0%{
+        width:0;
+        background-color: aqua;
+    }
+    100%{
+        width:90;
+        background-color: darkturquoise;
+    }   
+}
+@keyframes javascript {
+    0%{
+        width:0%;
+        background-color: aqua;
+    }
+    100%{
+        width:45%;
+        background-color: darkturquoise;
+    }   
+}
+@keyframes python {
+    0%{
+        width:0%;
+        background-color: aqua;
+    }
+    100%{
+        width:50%;
+        background-color: darkturquoise;
+    }   
+}
+@keyframes github {
+    0%{
+        width:0%;
+        background-color: aqua;
+    }
+    100%{
+        width:35%;
+        background-color: darkturquoise;
+    }   
+}
+@keyframes datastructure {
+    0%{
+        width:0%;
+        background-color: aqua;
+    }
+    100%{
+        width:60%;
+        background-color: darkturquoise;
+    }   
+}
+@keyframes reactjs {
+    0%{
+        width:0%;
+        background-color: aqua;
+    }
+    100%{
+        width:40%;
+        background-color: darkturquoise;
+    }   
+}
+@keyframes html {
+    0%{
+        width:0%;
+        background-color: aqua;
+    }
+    100%{
+        width:65%;
+        background-color: darkturquoise;
+    }   
+}
+@keyframes css{
+    0%{
+        width:0%;
+        background-color: aqua;
+    }
+    100%{
+        width:55%;
+        background-color: darkturquoise;
+    }   
+}
+@keyframes algorithm{
+    0%{
+        width:0%;
+        background-color: aqua;
+    }
+    100%{
+        width:35%;
+        background-color: darkturquoise;
+    }   
+}
+@keyframes flutter{
+    0%{
+        width:0%;
+        background-color: aqua;
+    }
+    100%{
+        width:40%;
+        background-color: darkturquoise;
+    }   
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width:800px){
+    .column{
+        width: 100%;
+    }
+}
